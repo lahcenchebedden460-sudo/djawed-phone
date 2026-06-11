@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djawed Phone</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            <span>Djawed</span> Phone
+        </div>
+
+        <nav class="navbar">
+
+            <a href="#home">الرئيسية</a>
+            <a href="#brands">العلامات</a>
+            <a href="#products">الهواتف</a>
+            <a href="#used">المستعمل</a>
+            <a href="#services">الصيانة</a>
+            <a href="#reviews">الآراء</a>
+            <a href="#contact">اتصل بنا</a>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <button id="darkModeBtn">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <button class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- Hero -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>
+                أحدث الهواتف الذكية بأفضل الأسعار
+            </h1>
+
+            <p>
+                متجر Djawed Phone يوفر لك أحدث الأجهزة الأصلية مع الضمان وخدمة الصيانة الاحترافية.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#products" class="btn">
+                    تصفح الهواتف
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    تواصل معنا
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+                alt="Phone">
+
+        </div>
+
+    </section>
+
+    <!-- Search -->
+
+    <section class="search-section">
+
+        <input type="text" id="searchInput"
+            placeholder="ابحث عن هاتف...">
+
+    </section>
+
+    <!-- Brands -->
+
+    <section class="brands" id="brands">
+
+        <h2 class="section-title">
+            أشهر العلامات التجارية
+        </h2>
+
+        <div class="brands-container">
+
+            <div class="brand-card">Apple</div>
+            <div class="brand-card">Samsung</div>
+            <div class="brand-card">Xiaomi</div>
+            <div class="brand-card">Realme</div>
+            <div class="brand-card">Tecno</div>
+            <div class="brand-card">Infinix</div>
+
+        </div>
+
+    </section>
+
+    <!-- Products -->
+
+    <section class="products" id="products">
+
+        <h2 class="section-title">
+            الهواتف المميزة
+        </h2>
+
+        <div class="products-grid">
+
+            <div class="product-card">
+
+                <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97"
+                    alt="">
+
+                <h3>iPhone 16 Pro</h3>
+
+                <p>199000 DA</p>
+
+                <button>عرض التفاصيل</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf"
+                    alt="">
+
+                <h3>Galaxy S25 Ultra</h3>
+
+                <p>210000 DA</p>
+
+                <button>عرض التفاصيل</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505"
+                    alt="">
+
+                <h3>Xiaomi 15 Pro</h3>
+
+                <p>115000 DA</p>
+
+                <button>عرض التفاصيل</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Deals -->
+
+    <section class="deals">
+
+        <h2>
+            عرض اليوم ينتهي خلال
+        </h2>
+
+        <div id="countdown">
+
+            00 : 00 : 00
+
+        </div>
+
+    </section>
+
+    <!-- Used Phones -->
+
+    <section class="used-phones" id="used">
+
+        <h2 class="section-title">
+            الهواتف المستعملة
+        </h2>
+
+        <div class="used-grid">
+
+            <div class="used-card">
+
+                <h3>iPhone 13</h3>
+
+                <p>حالة ممتازة</p>
+
+                <span>89000 DA</span>
+
+            </div>
+
+            <div class="used-card">
+
+                <h3>Galaxy S22</h3>
+
+                <p>بطارية 90%</p>
+
+                <span>76000 DA</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Trade In -->
+
+    <section class="trade-in">
+
+        <h2>
+            استبدل هاتفك القديم
+        </h2>
+
+        <p>
+            احصل على تقييم أولي لهاتفك خلال دقائق.
+        </p>
+
+        <button class="btn">
+            ابدأ الآن
+        </button>
+
+    </section>
+
+    <!-- Services -->
+
+    <section class="services" id="services">
+
+        <h2 class="section-title">
+            خدماتنا
+        </h2>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                <h3>صيانة الشاشات</h3>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-battery-full"></i>
+
+                <h3>تغيير البطارية</h3>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-mobile-screen"></i>
+
+                <h3>فحص الأجهزة</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Reviews -->
+
+    <section class="reviews" id="reviews">
+
+        <h2 class="section-title">
+            آراء العملاء
+        </h2>
+
+        <div class="reviews-container">
+
+            <div class="review-card">
+
+                <p>
+                    خدمة ممتازة وأسعار رائعة.
+                </p>
+
+                <h4>محمد</h4>
+
+            </div>
+
+            <div class="review-card">
+
+                <p>
+                    أفضل محل هواتف تعاملت معه.
+                </p>
+
+                <h4>أحمد</h4>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Stats -->
+
+    <section class="stats">
+
+        <div class="stat">
+
+            <h3>5000+</h3>
+            <p>عميل</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h3>3000+</h3>
+            <p>جهاز مباع</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h3>1500+</h3>
+            <p>عملية صيانة</p>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact" id="contact">
+
+        <h2 class="section-title">
+            تواصل معنا
+        </h2>
+
+        <form>
+
+            <input type="text"
+                placeholder="الاسم">
+
+            <input type="email"
+                placeholder="البريد الإلكتروني">
+
+            <textarea placeholder="رسالتك"></textarea>
+
+            <button type="submit">
+                إرسال
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>Djawed Phone</h3>
+
+        <p>
+            جميع الحقوق محفوظة © 2026
+        </p>
+
+    </footer>
+
+    <!-- WhatsApp -->
+
+    <a href="#" class="whatsapp">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
